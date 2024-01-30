@@ -29,7 +29,7 @@ services:
 
   vue:
     build:
-      context: client/dockerfiles
+      context: client
       dockerfile: vue.Dockerfile
     volumes:
       - ./client/src:/var/www/vue
