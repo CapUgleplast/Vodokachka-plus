@@ -10,7 +10,7 @@
 
 5. Создайте .env с помощью `cp .env.example .env`
 
-6. Сгенерируйте ключ `php artisan key:generate`
+6. Сгенерируйте ключ `docker-compose run artisan key:generate`
 
 7. Запустите `docker-compose run composer install` чтобы установить зависимости
 
