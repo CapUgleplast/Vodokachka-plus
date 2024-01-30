@@ -10,9 +10,9 @@
 
 5. Создайте .env с помощью `cp .env.example .env`
 
-6. Сгенерируйте ключ `docker-compose run artisan key:generate`
+6. Запустите `docker-compose run composer install` чтобы установить зависимости
 
-7. Запустите `docker-compose run composer install` чтобы установить зависимости
+7. Сгенерируйте ключ `docker-compose run artisan key:generate`
 
 8. Запуcтите сервер `docker-compose up nginx -d` и убедитесь в его работоспособности перейдя на localhost:8000
 
