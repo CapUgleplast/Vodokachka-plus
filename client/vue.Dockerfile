@@ -3,6 +3,8 @@ FROM node:21-alpine3.18
 WORKDIR /var/www/vue
 COPY ./src/package.json ./
 
+RUN npm i -g vite
+
 RUN npm install
 
 COPY ./src ./
