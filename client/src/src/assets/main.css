@@ -4,6 +4,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #2c2c2c;
+  background: white;
 }
 
 #app{
