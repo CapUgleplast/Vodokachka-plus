@@ -1,5 +1,3 @@
-Проект развернут по адресу http://89.104.65.77:8080/
-
 LOGIN: admin
 PASSWORD: admin
 
